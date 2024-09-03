@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Student Registration</title>
+  </head>
+  <body>
+    <div>
+      <h1>Latya College Registration</h1>
+      <form>
+        <!-- Name -->
+        <div>
+          <label for="name">Full Name:</label>
+          <input
+            type="text"
+            id="name"
+            name="name"
+            placeholder="Enter your full name"
+            required
+          />
+        </div>
+
+        
+        <div>
+          <label>Gender:</label>
+          <div>
+            <label
+              ><input type="radio" name="gender" value="male" required />
+              Male</label
+            >
+            <label
+              ><input type="radio" name="gender" value="female" required />
+              Female</label
+            >
+            <label
+              ><input type="radio" name="gender" value="non-binary" required />
+              Other</label
+            >
+            <label
+              ><input
+                type="radio"
+                name="gender"
+                value="prefer-not-to-say"
+                required
+              />
+              Prefer not to say</label
+            >
+          </div>
+        </div>
+
+        <!-- Age -->
+        <div>
+          <label for="age">Age:</label>
+          <input
+            type="text"
+            id="age"
+            name="age"
+            placeholder="Enter your age"
+            required
+          />
+        </div>
+
+        <div>
+          <label for="age">Age:</label>
+          <input
+            type="text"
+            id="age"
+            name="age"
+            placeholder="Enter your age"
+            required
+          />
+        </div>
+
+        <!-- Highest Academic Certificate -->
+        <div>
+          <label for="certificate">Highest Academic Certificate:</label>
+          <select id="certificate" name="certificate" required>
+            <option value="" disabled selected>Select your certificate</option>
+            <option value="high-school">High School Certificate</option>
+            <option value="college-diploma">College Diploma</option>
+            <option value="vocational-training">
+              Vocational Training Institute Certificate
+            </option>
+            <option value="university-degree">University Degree</option>
+          </select>
+        </div>
+
+
+        <!-- Phone Number -->
+        <div>
+          <label for="phone">Phone Number:</label>
+          <input
+            type="tel"
+            id="phone"
+            name="phone"
+            placeholder="Enter your phone number"
+            required
+          />
+        </div>
+
+        <!-- Religion -->
+        <div>
+          <label>Religion:</label>
+          <div>
+            <label
+              ><input type="checkbox" name="religion" value="christianity" />
+              Christianity</label
+            >
+            <label
+              ><input type="checkbox" name="religion" value="islam" />
+              Islam</label
+            >
+            <label
+              ><input type="checkbox" name="religion" value="hinduism" />
+              Hinduism</label
+            >
+            <label
+              ><input type="checkbox" name="religion" value="buddhism" />
+              Buddhism</label
+            >
+            <label
+              ><input type="checkbox" name="religion" value="other" />
+              Other</label
+            >
+          </div>
+        </div>
+
+        <!-- Submit Button -->
+        <input type="submit" value="Submit" />
+      </form>
+    </div>
+  </body>
+</html>
